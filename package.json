@@ -1,11 +1,8 @@
 {
   "name": "jade-static-cache",
   "version": "0.0.1",
-  "description": "Middleware combined with Jade filters to provide frontend caching of static files. An eTag is transparently placed in the URL of your static files along with a cache control header. The browser will only request the file when it is modified. ",
+  "description": "Middleware combined with Jade filters to provide frontend caching of static files. An eTag is transparently placed in the URL of your static files along with a cache control header. The browser will only request the file when it is modified.",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "repository": {
     "type": "git",
     "url": "https://github.com/sheehanderson/jade-static-cache"
