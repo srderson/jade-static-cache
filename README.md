@@ -13,13 +13,16 @@ $ npm install jade-static-cache
 This module currently supports Express 3.
 
 ```js
-var express = require('express')
+var express = require('express');
+var path = require('path');
 var jadeStaticCache = require('jade-static-cache');
 var app = express();
 
-app.use(jadeStaticCache.static('./static', '/cache'));
+var staticDir = path.join(__dirname, 'static');
+
+app.use(jadeStaticCache.static(staticDir, '/cache'));
     
-app.use(express.static('./static')); 
+app.use(express.static(staticDir)); 
 app.use(app.router);
 app.set('view engine', 'jade');
 app.get('/', function(req, res){
