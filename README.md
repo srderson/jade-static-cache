@@ -20,7 +20,12 @@ var app = express();
 app.use(jadeStaticCache.static('./static', '/cache'));
     
 app.use(express.static('./static')); 
-app = express.createServer();
+app.use(app.router);
+app.set('view engine', 'jade');
+app.get('/', function(req, res){
+	res.render('index');
+});
+app.listen(3000);
 ```
 
 ``static`` takes two parameters: The first is the root directory where your static
