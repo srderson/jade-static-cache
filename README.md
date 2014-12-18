@@ -58,7 +58,7 @@ In dev mode, this will render:
 <script src="/css/main.css"></script>
 ```
 
-In both cases, the appropriate response with be sent to the browser along with a 
+In both cases, the response will be sent to the browser along with a 
 cache-control header that has a max-age value of 1 year. This will prevent the browser 
 from making future requests for the file.
 
