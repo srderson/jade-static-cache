@@ -48,14 +48,14 @@ In production mode, this will render
 
 ```html
 <link rel="stylesheet" href="/cache/4dsd6-8866610372/css/main.css">
-<script src="/cache/4d66-888010372/css/main.css"></script>
+<script src="/cache/4d66-888010372/scripts/base.js"></script>
 ```
 
 In dev mode, this will render:
 
 ```html
 <link rel="stylesheet" href="/css/main.css">
-<script src="/css/main.css"></script>
+<script src="/scripts/base.js"></script>
 ```
 
 In both cases, the response will be sent to the browser along with a 
