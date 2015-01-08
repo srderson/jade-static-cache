@@ -1,11 +1,11 @@
 {
   "name": "jade-static-cache",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Middleware combined with Jade filters to provide frontend caching of static files.",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/sheehana/jade-static-cache"
+    "url": "https://github.com/srderson/jade-static-cache"
   },
   "keywords": [
     "cache",
@@ -21,9 +21,9 @@
   "author": "Sheehan Anderson <sranderson@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/sheehana/jade-static-cache/issues"
+    "url": "https://github.com/srderson/jade-static-cache/issues"
   },
-  "homepage": "https://github.com/sheehana/jade-static-cache",
+  "homepage": "https://github.com/srderson/jade-static-cache",
   "dependencies": {
     "buffer-crc32": "0.2.5"
   }
